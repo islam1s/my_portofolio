@@ -1,0 +1,71 @@
+html{
+    background-image: url("https://i0.wp.com/www.touristegypt.com/wp-content/uploads/2023/03/giza-pyramids-cairo-egypt-with-palm.jpg?fit=2424%2C1500&ssl=1");
+    background-size: cover;
+
+}
+body{
+    background: rgba(232, 213, 193, 0.133);
+
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto;
+    font-family:'raleway';
+    padding: 20px;
+    border-radius: 10px;
+
+}
+h1,p{
+    text-align: center;
+    margin: auto;
+}
+label{
+    display: block;
+    margin: 1em;
+}
+input,select{
+    display: block;
+    width: 100%;
+    font-size: 20px;
+    padding: 0.3em;
+    background-color: #fbfbfb;
+    border: solid 1px #ccc;
+    resize: vertical;
+    border-radius: 10px;
+
+}
+input[type=checkbox],input[type=radio]{
+    display: inline;
+    width: auto;
+}
+.inline-label{
+    display: inline;
+    width: auto;
+}
+option{
+    color: black;
+    background: rgb(255,255,255);
+}
+select{
+    color: indigo;
+}
+
+input[type=submit]:hover,
+input[type=submit]:focus
+{
+    outline: none;
+    background-color: rgb(5,129,88);
+}
+
+input[type=reset]:hover,
+input[type=reset]:focus
+{
+    outline: none;
+    background-color: rgb(192,3,18);
+}
+
+input[type=submit],input[type=reset]{
+    background-color: rgb(47, 94, 225);
+    color: white;
+    margin-top: 1em;
+    border-radius: 5px;
+}
